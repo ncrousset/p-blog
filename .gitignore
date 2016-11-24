@@ -1,0 +1,7 @@
+.idea
+db.sqlite3
+mysite/__pycache__/
+blog/__pycache__/
+blog/migrations/__pycache__/
+mysite/__pycache__/*
+mysite/__pycache__/settings.cpython-35.pyc
