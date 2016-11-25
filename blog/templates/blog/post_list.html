@@ -12,18 +12,14 @@
     <div>
         <h1><a href="">Django post</a></h1>
     </div>
+    {% for post in posts %}
+        <div>
+            <p>published: {{ post.published_date }}</p>
+            <h2><a href="">{{ post.title }}</a></h2>
+            <p>{{ post.text }}</p>
+        </div>
+    {% endfor %}
 
-    <div>
-        <p>published: 10.05.2016, 12:15</p>
-        <h2><a href="">My first post</a></h2>
-        <p>asasasasasasasasasas</p>
-    </div>
-
-    <div>
-        <p>published: 10.05.2016, 12:15</p>
-        <h2><a href="">My second post</a></h2>
-        <p>asasasasasasasasasas</p>
-    </div>
 
 </body>
 </html>
